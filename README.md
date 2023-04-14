@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @Ashwin3207
-- 👀 I’m interested in game Development
-- 🌱 I’m currently learning python
+- 👀 Game Dev
 - 💞️ I’m looking to collaborate on a webpage
 - 📫 Reach me at amathura01@gmail.com
 
