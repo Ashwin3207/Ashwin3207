@@ -13,7 +13,7 @@
   - 🐍 Snake Game AI using Deep Q-Learning with PyTorch
   - 🕸️ Coding contest platform with auto-evaluation
   - 📱 Flutter app for college attendance using Firebase
-- 🔍 Exploring **Rust**, **Riverpod**, **Advanced DSA** and **ML**
+- 🔍 Exploring **MERN** , **Advanced DSA** and **ML**
 - ⚙️ Languages I use: Java, Python, Dart, JavaScript, C++
 
 ---
@@ -41,8 +41,8 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ashwin&show_icons=true&theme=react&hide_border=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ashwin&layout=compact&theme=react&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ashwin-kumar-mathura&show_icons=true&theme=react&hide_border=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ashwin-kumar-mathura&layout=compact&theme=react&hide_border=true"/>
 </div>
 
 ---
@@ -50,7 +50,7 @@
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ashwin&theme=onedark&row=1&column=6" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ashwin-kumar-mathura&theme=onedark&row=1&column=6" />
 </p>
 
 ---
@@ -59,7 +59,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ashwin-kumar-mathura"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:ashwin.kumar.mathura@example.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="mailto:amathura01@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://your-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-121212?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
