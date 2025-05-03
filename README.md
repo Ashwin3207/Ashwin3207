@@ -13,7 +13,7 @@
   - 🐍 Snake Game AI using Deep Q-Learning with PyTorch
   - 🕸️ Coding contest platform with auto-evaluation
   - 📱 Flutter app for college attendance using Firebase
-- 🔍 Exploring **MERN** , **Advanced DSA** and **ML**
+- 🔍 Exploring **MERN**, **Advanced DSA**, and **ML**
 - ⚙️ Languages I use: Java, Python, Dart, JavaScript, C++
 
 ---
@@ -24,7 +24,6 @@
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-
 
 #### 🧠 AI & ML
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white)
@@ -41,8 +40,8 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ashwin-kumar-mathura&show_icons=true&theme=react&hide_border=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ashwin-kumar-mathura&layout=compact&theme=react&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ashwin3207&show_icons=true&theme=react&hide_border=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashwin3207&layout=compact&theme=react&hide_border=true"/>
 </div>
 
 ---
@@ -50,7 +49,7 @@
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ashwin-kumar-mathura&theme=onedark&row=1&column=6" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Ashwin3207&theme=onedark&row=1&column=6" />
 </p>
 
 ---
@@ -66,4 +65,3 @@
 ---
 
 > “Code is like humor. When you have to explain it, it’s bad.” – Cory House
-
