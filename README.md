@@ -1,6 +1,8 @@
-# Ashwin Kumar Mathura
+<h1 align="center">Hey 👋, I'm Ashwin Kumar Mathura</h1>
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=900&color=00F7FF&width=520&lines=Computer+Science+Engineer;Full-Stack+Developer;AI+ML+Enthusiast)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=900&color=00F7FF&width=520&lines=Computer+Science+Engineer;Full-Stack+Developer;AI+ML+Enthusiast;System+Design+Focused" alt="Typing SVG" />
+</p>
 
 ## 🚀 About Me
 
