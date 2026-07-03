@@ -10,7 +10,7 @@
 - 🧠 Strong in **DSA, Backend Systems & Machine Learning**
 - 🏗️ Focused on building **scalable, production-grade applications**
 - 📄 **IEEE Published Researcher** (ML - Healthcare)
-- 🎯 Target: **Top-tier Software Engineering Roles (Microsoft-level)**
+
 
 ---
 
