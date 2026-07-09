@@ -90,7 +90,7 @@
 - 🥇 **GATE 2026 Qualified – CSE**
 - 📄 **IEEE Published Researcher (ISSS 2025)**
 - 🧩 Solved **200+ DSA problems** (LeetCode & CP platforms)
-- 🎓 Academic Excellence – CGPA **8.7 / 10**
+- 🎓 Academic Excellence – CGPA **8.77 / 10**
 
 ---
 
