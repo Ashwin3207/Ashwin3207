@@ -46,14 +46,7 @@
 
 ---
 
-### 📱 Smart Attendance App *(Prototype)*  
-**Tech:** Flutter • Firebase  
 
-- Built mobile-first attendance tracking system  
-- Implemented **real-time sync using Firebase**  
-- Focus on usability, performance, and clean UI  
-
----
 
 ## 🛠️ Tech Stack
 
