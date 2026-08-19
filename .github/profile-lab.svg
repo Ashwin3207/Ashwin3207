@@ -1,0 +1,47 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080B14"/>
+      <stop offset="0.52" stop-color="#10172A"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="720" y1="70" x2="1010" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#63E6FF"/>
+      <stop offset="1" stop-color="#9B7BFF"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse" patternTransform="perspective(260px) rotateX(54deg)">
+      <path d="M48 0H0V48" stroke="#63E6FF" stroke-opacity="0.11"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect x="0" y="220" width="1200" height="140" fill="url(#grid)" opacity="0.9"/>
+  <path d="M0 220C250 184 370 256 610 220C820 188 1000 204 1200 174" stroke="#63E6FF" stroke-opacity="0.2"/>
+
+  <g opacity="0.8" stroke="url(#edge)" stroke-width="2">
+    <path d="M780 86L958 126L958 278L780 238Z"/>
+    <path d="M780 86L858 52L1036 92L958 126Z"/>
+    <path d="M958 126L1036 92L1036 244L958 278Z"/>
+    <path d="M858 52L858 204L1036 244" stroke-opacity="0.45"/>
+    <path d="M780 86L858 52L858 204L780 238" stroke-opacity="0.45"/>
+  </g>
+
+  <g fill="#63E6FF" filter="url(#glow)">
+    <circle cx="858" cy="52" r="4"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="958" cy="126" r="4"><animate attributeName="opacity" values="1;0.35;1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="858" cy="204" r="4"><animate attributeName="opacity" values="0.35;1;0.35" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1036" cy="244" r="4"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="82" y="126" fill="#63E6FF" font-size="14" letter-spacing="4">PROFILE / 01</text>
+    <text x="78" y="190" fill="#FFFFFF" font-size="54" font-weight="700" letter-spacing="8">ASHWIN</text>
+    <text x="84" y="226" fill="#B8C4DE" font-size="18" letter-spacing="5">AI ENGINEER</text>
+    <path d="M84 252H340" stroke="#9B7BFF" stroke-width="2"/>
+    <text x="84" y="286" fill="#7F8BA8" font-size="13">ML  /  COMPUTER VISION  /  BACKEND SYSTEMS</text>
+  </g>
+</svg>

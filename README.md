@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=170&section=header&text=ASHWIN&fontSize=52&fontColor=FFFFFF&animation=fadeIn&fontAlignY=43&desc=AI%20ENGINEER%20%2F%2F%20ML%20%2B%20BACKEND%20SYSTEMS&descAlignY=68&descSize=15&descColor=00D9FF" width="100%" alt="Ashwin - AI Engineer" />
+<img src=".github/profile-lab.svg" width="100%" alt="Ashwin - AI Engineer" />
 
 <a href="https://github.com/Ashwin3207">GitHub</a> &nbsp;·&nbsp;
 <a href="https://www.linkedin.com/in/ashwin-kumar-mathura">LinkedIn</a> &nbsp;·&nbsp;
@@ -13,19 +13,19 @@
 
 > I build software at the intersection of machine learning and backend engineering: models, APIs, and products that work together.
 
-## Tech Stack
+## System Map
 
 <table>
 <tr>
-<td><strong>AI / ML</strong><br />Python · Deep Learning · Computer Vision<br />LLMs · RAG · Scikit-learn · Pandas · NumPy</td>
-<td><strong>Application Layer</strong><br />Java · Spring Boot · React<br />REST APIs · Node.js · Express</td>
-<td><strong>Data & Systems</strong><br />PostgreSQL · MongoDB · Redis<br />JWT · Docker · Git</td>
+<td><strong>01 / Intelligence</strong><br />Python · Deep Learning · Computer Vision<br />LLMs · RAG · Scikit-learn · Pandas · NumPy</td>
+<td><strong>02 / Product</strong><br />Java · Spring Boot · React<br />REST APIs · Node.js · Express</td>
+<td><strong>03 / Infrastructure</strong><br />PostgreSQL · MongoDB · Redis<br />JWT · Docker · Git</td>
 </tr>
 </table>
 
 ## Featured Projects
 
-### Parkinson's Detection
+### 01 / Parkinson's Detection
 
 **Computer Vision · Deep Learning · Published Research**
 
@@ -35,7 +35,7 @@ NewHandPD -> preprocessing -> EfficientNetB3 -> feature extraction -> Soft Votin
 
 An ensemble pipeline combining EfficientNetB3 deep features with Random Forest and Voting Classifier models, reaching 97% accuracy. Co-authored and presented at IEEE ISSS 2025.
 
-### Campus2Corporate
+### 02 / Campus2Corporate
 
 **React · Node.js · MongoDB · AI**
 
