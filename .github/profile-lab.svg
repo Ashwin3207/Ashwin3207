@@ -1,47 +1,114 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#080B14"/>
-      <stop offset="0.52" stop-color="#10172A"/>
-      <stop offset="1" stop-color="#0B1020"/>
+      <stop stop-color="#081017"/>
+      <stop offset="0.55" stop-color="#10222A"/>
+      <stop offset="1" stop-color="#1A2A30"/>
     </linearGradient>
-    <linearGradient id="edge" x1="720" y1="70" x2="1010" y2="290" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#63E6FF"/>
-      <stop offset="1" stop-color="#9B7BFF"/>
+    <linearGradient id="fog" x1="0" y1="250" x2="1200" y2="130" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D2A33" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#88D5C8" stop-opacity="0.16"/>
+    </linearGradient>
+    <linearGradient id="line" x1="730" y1="20" x2="1130" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE39A"/>
+      <stop offset="1" stop-color="#5DE2CC"/>
     </linearGradient>
     <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse" patternTransform="perspective(260px) rotateX(54deg)">
-      <path d="M48 0H0V48" stroke="#63E6FF" stroke-opacity="0.11"/>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1" fill="#A8FFE7" fill-opacity="0.13"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
-  <rect x="0" y="220" width="1200" height="140" fill="url(#grid)" opacity="0.9"/>
-  <path d="M0 220C250 184 370 256 610 220C820 188 1000 204 1200 174" stroke="#63E6FF" stroke-opacity="0.2"/>
+  <rect width="1200" height="360" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="20" fill="url(#dots)"/>
+  <ellipse cx="950" cy="276" rx="172" ry="34" fill="#061015" opacity="0.6"/>
+  <rect x="0" y="182" width="1200" height="178" fill="url(#fog)"/>
 
-  <g opacity="0.8" stroke="url(#edge)" stroke-width="2">
-    <path d="M780 86L958 126L958 278L780 238Z"/>
-    <path d="M780 86L858 52L1036 92L958 126Z"/>
-    <path d="M958 126L1036 92L1036 244L958 278Z"/>
-    <path d="M858 52L858 204L1036 244" stroke-opacity="0.45"/>
-    <path d="M780 86L858 52L858 204L780 238" stroke-opacity="0.45"/>
+  <g opacity="0.22" stroke="#9BE7D8" stroke-width="1">
+    <path d="M0 276H1200"/>
+    <path d="M0 302H1200"/>
+    <path d="M0 328H1200"/>
   </g>
 
-  <g fill="#63E6FF" filter="url(#glow)">
-    <circle cx="858" cy="52" r="4"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="958" cy="126" r="4"><animate attributeName="opacity" values="1;0.35;1" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="858" cy="204" r="4"><animate attributeName="opacity" values="0.35;1;0.35" dur="2.4s" repeatCount="indefinite"/></circle>
-    <circle cx="1036" cy="244" r="4"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/></circle>
+  <g font-family="Consolas, 'Courier New', monospace" text-anchor="middle" filter="url(#glow)">
+    <text x="953" y="106" fill="#FFE7AE" font-size="15" letter-spacing="2">FRAME 01</text>
+    <g>
+      <animate attributeName="opacity" values="1;1;0;0;0;0" keyTimes="0;0.16;0.17;0.5;0.83;1" dur="6s" repeatCount="indefinite"/>
+      <text x="953" y="142" fill="#C8FFF1" font-size="18" xml:space="preserve">      .-========-.      </text>
+      <text x="953" y="164" fill="#B8F7E6" font-size="18" xml:space="preserve">   .-'  /\  /\  '-.   </text>
+      <text x="953" y="186" fill="#A8F0DD" font-size="18" xml:space="preserve">  /___ /__\/__\ ___\  </text>
+      <text x="953" y="208" fill="#8BE5CF" font-size="18" xml:space="preserve">  \   \/  /\  \/   /  </text>
+      <text x="953" y="230" fill="#76D9C2" font-size="18" xml:space="preserve">   '-._\_/  \_/_.-'   </text>
+    </g>
+
+    <text x="953" y="106" fill="#FFE7AE" font-size="15" letter-spacing="2">FRAME 02
+      <animate attributeName="opacity" values="0;1;1;0;0;0" keyTimes="0;0.16;0.33;0.34;0.83;1" dur="6s" repeatCount="indefinite"/>
+    </text>
+    <g>
+      <animate attributeName="opacity" values="0;1;1;0;0;0" keyTimes="0;0.16;0.33;0.34;0.83;1" dur="6s" repeatCount="indefinite"/>
+      <text x="953" y="142" fill="#C8FFF1" font-size="18" xml:space="preserve">      .-======-.       </text>
+      <text x="953" y="164" fill="#B8F7E6" font-size="18" xml:space="preserve">   .-'  /\__/\  '-.   </text>
+      <text x="953" y="186" fill="#A8F0DD" font-size="18" xml:space="preserve">  /___ /_/\/\_\ ___\  </text>
+      <text x="953" y="208" fill="#8BE5CF" font-size="18" xml:space="preserve">  \   /  /\  \   /   </text>
+      <text x="953" y="230" fill="#76D9C2" font-size="18" xml:space="preserve">   '-/__/  \__\-'    </text>
+    </g>
+
+    <text x="953" y="106" fill="#FFE7AE" font-size="15" letter-spacing="2">FRAME 03
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.5;0.51;0.83;1" dur="6s" repeatCount="indefinite"/>
+    </text>
+    <g>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.5;0.51;0.83;1" dur="6s" repeatCount="indefinite"/>
+      <text x="953" y="142" fill="#C8FFF1" font-size="18" xml:space="preserve">       .-====-.        </text>
+      <text x="953" y="164" fill="#B8F7E6" font-size="18" xml:space="preserve">    .-' /\  /\ '-.     </text>
+      <text x="953" y="186" fill="#A8F0DD" font-size="18" xml:space="preserve">   /___/ /\/\ \___\    </text>
+      <text x="953" y="208" fill="#8BE5CF" font-size="18" xml:space="preserve">   \   \_\  /_/   /    </text>
+      <text x="953" y="230" fill="#76D9C2" font-size="18" xml:space="preserve">    '-.__\__/__.-'     </text>
+    </g>
+
+    <text x="953" y="106" fill="#FFE7AE" font-size="15" letter-spacing="2">FRAME 04
+      <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;0.5;0.66;0.67;0.83;1" dur="6s" repeatCount="indefinite"/>
+    </text>
+    <g>
+      <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;0.5;0.66;0.67;0.83;1" dur="6s" repeatCount="indefinite"/>
+      <text x="953" y="142" fill="#C8FFF1" font-size="18" xml:space="preserve">      .-======-.       </text>
+      <text x="953" y="164" fill="#B8F7E6" font-size="18" xml:space="preserve">   .-' /\  __ /\ '-.   </text>
+      <text x="953" y="186" fill="#A8F0DD" font-size="18" xml:space="preserve">  /___/ /_/  \_\___\  </text>
+      <text x="953" y="208" fill="#8BE5CF" font-size="18" xml:space="preserve">  \   \ \ \__/ /   /  </text>
+      <text x="953" y="230" fill="#76D9C2" font-size="18" xml:space="preserve">   '-._\_\__/_.-'   </text>
+    </g>
+
+    <text x="953" y="106" fill="#FFE7AE" font-size="15" letter-spacing="2">FRAME 05
+      <animate attributeName="opacity" values="0;0;0;0;1;1" keyTimes="0;0.66;0.83;0.84;0.99;1" dur="6s" repeatCount="indefinite"/>
+    </text>
+    <g>
+      <animate attributeName="opacity" values="0;0;0;0;1;1" keyTimes="0;0.66;0.83;0.84;0.99;1" dur="6s" repeatCount="indefinite"/>
+      <text x="953" y="142" fill="#C8FFF1" font-size="18" xml:space="preserve">     .-========-.      </text>
+      <text x="953" y="164" fill="#B8F7E6" font-size="18" xml:space="preserve">  .-'  /\____/\  '-.   </text>
+      <text x="953" y="186" fill="#A8F0DD" font-size="18" xml:space="preserve"> /___ /_/\__/\_\ ___\  </text>
+      <text x="953" y="208" fill="#8BE5CF" font-size="18" xml:space="preserve"> \   /  /  /\  \   /   </text>
+      <text x="953" y="230" fill="#76D9C2" font-size="18" xml:space="preserve">  '-/__/__/  \__\-'    </text>
+    </g>
   </g>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <text x="82" y="126" fill="#63E6FF" font-size="14" letter-spacing="4">PROFILE / 01</text>
-    <text x="78" y="190" fill="#FFFFFF" font-size="54" font-weight="700" letter-spacing="8">ASHWIN</text>
-    <text x="84" y="226" fill="#B8C4DE" font-size="18" letter-spacing="5">AI ENGINEER</text>
-    <path d="M84 252H340" stroke="#9B7BFF" stroke-width="2"/>
-    <text x="84" y="286" fill="#7F8BA8" font-size="13">ML  /  COMPUTER VISION  /  BACKEND SYSTEMS</text>
+  <g stroke="url(#line)" stroke-width="2" opacity="0.85">
+    <path d="M786 84L1116 84" stroke-dasharray="6 8"/>
+    <path d="M786 254L1116 254" stroke-dasharray="6 8"/>
+    <path d="M786 84L786 254" stroke-dasharray="6 8"/>
+    <path d="M1116 84L1116 254" stroke-dasharray="6 8"/>
+  </g>
+
+  <g font-family="Consolas, 'Courier New', monospace">
+    <text x="78" y="92" fill="#FFE39A" font-size="14" letter-spacing="4">PROFILE / CHAR-VOLUME</text>
+    <text x="78" y="164" fill="#FFFFFF" font-size="56" font-weight="700" letter-spacing="8">ASHWIN</text>
+    <text x="80" y="202" fill="#C3E9DE" font-size="20" letter-spacing="5">AI ENGINEER</text>
+    <path d="M80 224H420" stroke="#5DE2CC" stroke-width="2"/>
+    <text x="80" y="260" fill="#B8C9C4" font-size="14" letter-spacing="1">2D ASCII ANIMATION CREATING A 3D ILLUSION</text>
+    <text x="80" y="286" fill="#8FA8A1" font-size="13">LLMS / COMPUTER VISION / BACKEND ARCHITECTURE</text>
   </g>
 </svg>

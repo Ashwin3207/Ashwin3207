@@ -26,6 +26,9 @@ ashwin / ai engineer
 
 $ mission
 turn machine learning ideas into useful software systems
+
+$ style
+2d character animation with 3d illusion thinking
 ```
 
 ## System Map
